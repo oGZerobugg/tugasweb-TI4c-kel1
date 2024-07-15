@@ -352,7 +352,7 @@ body {
 
 .hero-banner {
   width: 200px;
-  height: 100px;
+  height: 230px;
   margin-inline: auto;
   margin-block-end: 10px;
 }
@@ -469,7 +469,7 @@ b {
 }
 
 .portfolio-card .card-subtitle {
-  color: var(--orange-soda);
+  color: var(--gold-web-golden);
   margin-block-end: 5px;
 }
 
@@ -487,7 +487,7 @@ b {
 }
 
 .portfolio-card .btn-link ion-icon {
-  color: var(--orange-soda);
+  color: var(--gold-web-golden);
   font-size: 1.6rem;
 }
 
@@ -687,8 +687,9 @@ textarea.contact-input {
 }
 
 .blog-card .card-tag {
-  color: var(--orange-soda);
-  margin-block-end: 5px;
+  color: var(--gold-web-golden);
+  margin-block-end: 10px;
+  font-size: 20px;
 }
 
 .blog-card .card-title {
@@ -702,7 +703,7 @@ textarea.contact-input {
 }
 
 .blog-card .card-title a:is(:hover, :focus) {
-  color: var(--orange-soda);
+  color: var(--klein-blue);
 }
 
 

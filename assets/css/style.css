@@ -1,6 +1,31 @@
 /*-----------------------------------*\
   #CUSTOM STYLE CSS
 \*-----------------------------------*/
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+dl,
+dd,
+ol,
+ul,
+form,
+fieldset,
+legend,
+table,
+th,
+td,
+caption,
+hr {
+  box-sizing: border-box;
+}
 
 :root {
 
@@ -1055,9 +1080,6 @@ textarea.contact-input {
    * ABOUT
    */
 
-  .about {
-    padding-block: 180px;
-  }
 
   .about .container {
     display: grid;

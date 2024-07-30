@@ -4,11 +4,132 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Tentang Kampus</title>
+  <link rel="shortcut icon" href="/assets/images/logo.png" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Open+Sans:wght@400;500;700&family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet">
 </head>
 
-<body>
+<body id="top">
+  <header class="header" data-header>
+    <div class="container">
 
+      <a href="#">
+        <img src="/assets/images/header.png" alt="" width="150px">
+      </a>
+
+      <button class="nav-toggle-btn" aria-label="Toggle Menu" data-nav-toggle-btn>
+        <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+        <ion-icon name="close-outline" class="close-icon"></ion-icon>
+      </button>
+
+      <nav class="navbar container">
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="/resource/about.html" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li>
+            <a href="/resource/prodi.html" class="navbar-link" data-nav-link>Departments/Programs</a>
+          </li>
+
+          <li>
+            <a href="/resource/event.html" class="navbar-link" data-nav-link>News & Events</a>
+          </li>
+
+          <li>
+            <a href="/resource/gallery.html" class="navbar-link" data-nav-link>Gallery</a>
+          </li>
+
+          <li>
+            <a href="/resource/contact.html" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+          <li>
+            <a href="#blog" class="navbar-link" data-nav-link>Admission</a>
+          </li>
+
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <section class="section about" id="about">
+    <div class="container">
+
+      <figure class="about-banner">
+
+        <img src="/assets/images/24669.jpg" width="800" height="652" loading="lazy" alt="Perpustakaan"
+          class="img-cover">
+
+        <img src="/assets/images/19855.jpg" width="900" height="717" loading="lazy" alt="Fasilitas Kampus"
+          class="abs-img">
+
+        <div class="abs-icon abs-icon-1">
+          <ion-icon name="logo-css3"></ion-icon>
+        </div>
+
+        <div class="abs-icon abs-icon-2">
+          <ion-icon name="logo-javascript"></ion-icon>
+        </div>
+
+        <div class="abs-icon abs-icon-3">
+          <ion-icon name="trophy"></ion-icon>
+        </div>
+
+      </figure>
+
+      <div class="about-content">
+
+        <p class="section-subtitle">About</p>
+
+        <h2 class="h2 section-title">Tentang Kampus</h2>
+
+        <p class="section-text">
+          Universitas Handayani adalah salah satu institusi pendidikan tinggi terkemuka di Indonesia Timur, yang
+          dikenal
+          dengan komitmennya terhadap keunggulan akademik dan penelitian inovatif. Berlokasi di pusat kota yang
+          dinamis, kampus ini menawarkan lingkungan belajar yang inspiratif dengan fasilitas modern dan beragam
+          program studi yang komprehensif.
+        </p>
+
+        <p class="section-text">
+          Menjadi universitas terkemuka di Asia Tenggara yang unggul dalam pendidikan, penelitian, dan pengabdian
+          kepada masyarakat, serta berperan aktif dalam pembangunan bangsa melalui inovasi dan kolaborasi global.
+        </p>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- 
+    - custom js link
+  -->
+  <script src="/assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>

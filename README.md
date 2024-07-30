@@ -10,7 +10,7 @@
 - Aldrin Kaleb Membuat Isi About/Tentang Kampus
 - Ikcsan Membuat isi Event/Berita
 - Muhammad Ridwan membuat isi form Pendaftaran Kampus
-- Rahmat Mismar Menambahkan isi FILE README.md
+- Rahmat Mismar Menambahkan isi FILE README.md dan menambahkan gambar ada desain Responsive
 
 ![Profile Mobile Responsive](/readme-images/landing1.png)
 ![Landing Page](/readme-images/UHM-Profile.png)

@@ -671,7 +671,7 @@ textarea.contact-input {
 \*-----------------------------------*/
 
 .blog {
-  padding-block-end: 120px;
+  padding-block-end: 80px;
 }
 
 .blog .section-title {
@@ -1189,10 +1189,6 @@ textarea.contact-input {
   /**
    * BLOG
    */
-
-  .blog {
-    padding-block-end: 180px;
-  }
 
   .blog-list {
     grid-template-columns: repeat(3, 1fr);

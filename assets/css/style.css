@@ -1337,6 +1337,8 @@ html {
   height: 100%;
 }
 
+/* prodi */
+
 .faculty {
   margin-top: 40px;
 }
@@ -1353,7 +1355,7 @@ html {
 }
 
 .blog-card {
-  background: #636363;
+  background: var(--independence);
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 5px;
@@ -1373,4 +1375,54 @@ html {
 .blog-card-text {
   font-size: 1em;
   color: #ffffff;
+}
+
+/* event berita */
+
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.event-card {
+  background: var(--independence);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.event-card:hover {
+  transform: translateY(-10px);
+}
+
+.event-img-container {
+  overflow: hidden;
+}
+
+.event-img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s;
+}
+
+.event-card:hover .event-img {
+  transform: scale(1.1);
+}
+
+.event-content {
+  padding: 20px;
+}
+
+.event-title {
+  font-size: 1.75em;
+  margin-bottom: 10px;
+}
+
+.event-text {
+  font-size: 1em;
+  color: #ffffff;
+  line-height: 1.5;
 }

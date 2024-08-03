@@ -12,6 +12,7 @@
 - Muhammad Ridwan membuat isi form Pendaftaran Kampus
 - Rahmat Mismar Menambahkan isi FILE README.md dan menambahkan gambar ada desain Responsive
 
+
 # Universitas Handayani Makassar
 Salah satu project Pemograman WEB menggunakan 
 - Text Editor (Visual Studio Code)
@@ -23,4 +24,4 @@ Source
 ![Profile Mobile Responsive](/readme-images/landing1.png)
 ![Landing Page](/readme-images/UHM-Profile.png)
 
-# Terimakasih.....
+# Terimakasih...`

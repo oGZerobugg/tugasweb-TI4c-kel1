@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontak Kampus</title>
+  <link rel="shortcut icon" href="/assets/images/logo.png" type="image/svg+xml">
+
+  <!-- custom css link -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+  <!-- google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Open+Sans:wght@400;500;700&family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="index.html">
+        <img src="/assets/images/header.png" alt="" width="150px">
+      </a>
+
+      <button class="nav-toggle-btn" aria-label="Toggle Menu" data-nav-toggle-btn>
+        <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+        <ion-icon name="close-outline" class="close-icon"></ion-icon>
+      </button>
+
+      <nav class="navbar container">
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="about.html" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li>
+            <a href="prodi.html" class="navbar-link" data-nav-link>Departments/Programs</a>
+          </li>
+
+          <li>
+            <a href="event.html" class="navbar-link" data-nav-link>News & Events</a>
+          </li>
+
+          <li>
+            <a href="gallery.html" class="navbar-link" data-nav-link>Gallery</a>
+          </li>
+
+          <li>
+            <a href="contact.html" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+          <li>
+            <a href="#blog" class="navbar-link" data-nav-link>Admission</a>
+          </li>
+
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <section class="section gallery" id="departments">
+    <div class="container">
+      <br> <br>
+      <p class="section-subtitle">Contact</p>
+      <h2 class="h2 section-title">Lokasi dan Kontak kampus</h2>
+      <br>
+      <div class="contact-container">
+        <div class="contact-info">
+          <h2>Hubungi Kami</h2>
+          <form action="#" method="POST" class="contact-form">
+            <label for="name">Nama</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Pesan</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit" class="submit-btn">Kirim</button>
+          </form>
+        </div>
+        <div class="contact-map">
+          <h2>Lokasi Kami</h2>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3973.7001329070454!2d119.449133!3d-5.151877!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbee2c5b009c7b9%3A0xdd68d36bc04fc8c0!2sHandayani%20University!5e0!3m2!1sen!2sus!4v1722758467371!5m2!1sen!2sus"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        &copy; 2024 <a href="#" class="copyright-link">CodewithTeam</a>. Teknik Informatika
+      </p>
+
+      <ul class="footer-list">
+        <li>
+          <a href="#" class="footer-link">Terms & Condition</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Privacy Policy</a>
+        </li>
+      </ul>
+
+    </div>
+  </footer>
+
+  <!-- custom js link -->
+  <script src="/assets/js/script.js"></script>
+
+  <!-- ionicon link -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

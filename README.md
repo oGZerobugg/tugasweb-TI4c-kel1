@@ -20,7 +20,7 @@ Source
 - HTML
 - CSS
 - JAVASCRIPT 
-[I'm an inline-style link with title](https://ogzerobugg.github.io/tugasweb-TI4c-kel1/index.html "Link URL Landing Page")
+- [LINK URL Landing Page WEB](https://ogzerobugg.github.io/tugasweb-TI4c-kel1/index.html "Link URL Landing Page")
 
 ![Profile Mobile Responsive](/readme-images/landing1.png)
 ![Landing Page](/readme-images/UHM-Profile.png)

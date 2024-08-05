@@ -66,3 +66,7 @@ function slidesPlugin(activeSlide = 3) {
 }
 
 slidesPlugin()
+
+document.querySelector('.nav-toggle-btn').addEventListener('click', () => {
+  document.querySelector('.navbar-list').classList.toggle('active');
+});

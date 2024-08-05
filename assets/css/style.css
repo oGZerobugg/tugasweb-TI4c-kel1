@@ -1506,13 +1506,13 @@ html {
 .contact-form textarea {
   margin-bottom: 1rem;
   padding: 0.5rem;
-  border: 1px solid #ccc;
+  border: 1px solid #ffffff;
   border-radius: 5px;
 }
 
 .submit-btn {
   padding: 0.75rem;
-  background-color: #007bff;
+  background-color: var(--bluetiful);
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -1527,4 +1527,86 @@ html {
   width: 100%;
   border: 0;
   border-radius: 10px;
+}
+
+/* Admission */
+
+.admission-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.admission-image {
+  flex: 1;
+  min-width: 300px;
+  max-width: 100%;
+}
+
+.admission-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.admission-form {
+  flex: 1;
+  min-width: 300px;
+  max-width: 100%;
+  padding: 20px;
+  background-color: var(--independence);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.admission-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.admission-form label {
+  font-weight: bold;
+}
+
+.admission-form input,
+.admission-form select,
+.admission-form button {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.admission-form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.admission-form button:hover {
+  background-color: #0056b3;
+}
+
+.program-info {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.program-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.program-info li {
+  background-color: var(--independence);
+  color: #fff;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
 }

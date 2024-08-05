@@ -24,4 +24,4 @@ Source
 ![Profile Mobile Responsive](/readme-images/landing1.png)
 ![Landing Page](/readme-images/UHM-Profile.png)
 
-# Terimakasih banyak..
+# Terimakasih..
